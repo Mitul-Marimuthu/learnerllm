@@ -1,0 +1,29 @@
+# Supabase
+supabase>=2.4.0
+
+# PDF ingestion
+pypdf>=4.2.0
+pdfplumber>=0.11.0
+
+# File watching
+watchdog>=4.0.0
+
+# HTTP client (Ollama API calls)
+httpx>=0.27.0
+
+# Environment
+python-dotenv>=1.0.0
+
+# CLI interface
+rich>=13.7.0
+prompt_toolkit>=3.0.43
+
+# Token counting for chunker
+tiktoken>=0.7.0
+
+# .gitignore pattern matching for code loader
+pathspec>=0.12.1
+
+# Local API server (for web UI)
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
